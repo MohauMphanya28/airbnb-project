@@ -7,7 +7,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 const Header = () => {
   return (
     <div className="header">
-      <div className="header-logo">
+      <div className="header-left">
         <svg
           width="412"
           height="32"
@@ -27,10 +27,8 @@ const Header = () => {
             </clipPath>
           </defs>
         </svg>
-      </div>
-      <div className="header-center">
         <ul className="header-links">
-        <li>Places to stay</li>
+          <li>Places to stay</li>
           <li>Experiences</li>
           <li>Online Experiences</li>
         </ul>

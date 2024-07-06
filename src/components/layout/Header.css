@@ -8,19 +8,9 @@
   font-size: 1.1rem;
 }
 
-.header-center {
-  display: flex;
-}
-
-.header-logo {
-    padding-right: 50px;
-}
-
-.header-center {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
+.header-left {
+    display: flex;
+    align-items: center;
 }
 
 .header-links li {
@@ -39,5 +29,5 @@
 
 .profile {
   background-color: white;
-  border-radius: 10%;
+  border-radius: 20%;
 }
