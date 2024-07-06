@@ -1,0 +1,43 @@
+.header {
+  background-color: black;
+  height: 48px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.header-center {
+  display: flex;
+}
+
+.header-logo {
+    padding-right: 50px;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.header-links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 18px;
+}
+
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 18px;
+}
+
+.profile {
+  background-color: white;
+  border-radius: 10%;
+}
